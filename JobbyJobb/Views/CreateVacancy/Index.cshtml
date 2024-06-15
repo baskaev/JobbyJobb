@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создать Вакансию - JobbyJobb.com</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        .header, .footer {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+        }
+
+            .header a, .footer p {
+                margin: 0;
+            }
+
+        .header {
+            padding: 1rem 0;
+        }
+
+            .header a {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .header .nav-link {
+                font-size: 0.875rem; /* Smaller font size */
+            }
+
+        .footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #007bff;
+            color: white;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 3rem auto;
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header d-flex justify-content-between align-items-center py-3 mb-4 border-bottom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="text-white text-decoration-none">
+                <span>JobbyJobb.com</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link text-white">Статистика</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Услуги</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">ВОЙТИ/Зарегистрироваться</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <h2 class="text-center mb-4">Создать Вакансию</h2>
+            <form id="jobForm">
+                <div class="form-group">
+                    <label for="jobName">Имя</label>
+                    <input type="text" class="form-control" id="jobName" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="jobDescription">Описание</label>
+                    <textarea class="form-control" id="jobDescription" rows="5" placeholder="Введите описание"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="salary">Зарплата</label>
+                    <input type="text" class="form-control" id="salary" placeholder="Введите зарплату">
+                </div>
+                @* <div class="form-group">
+                    <label for="educationLevel">Уровень образования</label>
+                    <input type="text" class="form-control" id="educationLevel" placeholder="Введите уровень образования">
+                </div> *@
+
+                <div class="form-group">
+                    <label for="educationLevel">Уровень образования</label>
+                    <select class="form-control" id="educationLevel">
+                        <option value="Высшее">Высшее</option>
+                        <option value="Среднее">Среднее</option>
+                        <option value="Среднее специальное">Среднее специальное</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience">Опыт работы</label>
+                    <input type="text" class="form-control" id="experience" placeholder="Введите опыт работы">
+                </div>
+                <div class="form-group">
+                    <label for="sector">Сектор</label>
+                    <input type="text" class="form-control" id="sector" placeholder="Введите сектор">
+                </div>
+                <div class="form-group">
+                    <label for="address">Адрес</label>
+                    <input type="text" class="form-control" id="address" placeholder="Введите адрес">
+                </div>
+                <div class="form-group">
+                    <label for="schedule">График работы</label>
+                    <input type="text" class="form-control" id="schedule" placeholder="Введите график работы">
+                </div>
+                <div class="form-group">
+                    <label for="specialization">Специализация</label>
+                    <input type="text" class="form-control" id="specialization" placeholder="Введите специализацию">
+                </div>
+                @* <div class="form-group">
+                    <label for="status">Статус</label>
+                    <input type="text" class="form-control" id="status" placeholder="Введите статус вакансии">
+                </div> *@
+
+                <div class="form-group">
+                    <label for="status">Статус</label>
+                    <select class="form-control" id="status">
+                        <option value="Ищем">Ищем</option>
+                        <option value="Закрыта">Закрыта</option>
+                    </select>
+                </div>
+
+                @* <div class="form-group">
+                    <label for="employer">Работодатель</label>
+                    <input type="text" class="form-control" id="employer" placeholder="Введите работодателя">
+                </div> *@
+                <button type="submit" class="btn btn-primary btn-block">Создать</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>JobbyJobb inc. все права защищены</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+        document.getElementById('jobForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Get form values
+            var jobName = document.getElementById('jobName').value;
+            var jobDescription = document.getElementById('jobDescription').value;
+            var salary = document.getElementById('salary').value;
+            var educationLevel = document.getElementById('educationLevel').value;
+            var experience = document.getElementById('experience').value;
+            var sector = document.getElementById('sector').value;
+            var address = document.getElementById('address').value;
+            var schedule = document.getElementById('schedule').value;
+            var specialization = document.getElementById('specialization').value;
+            var status = document.getElementById('status').value;
+            // var employer = document.getElementById('employer').value;
+
+            // Construct the URL
+            var url = `/CreateVacancy/CreateVac?name=${encodeURIComponent(jobName)}&description=${encodeURIComponent(jobDescription)}&salary=${encodeURIComponent(salary)}&educationLevel=${encodeURIComponent(educationLevel)}&experience=${encodeURIComponent(experience)}&sector=${encodeURIComponent(sector)}&address=${encodeURIComponent(address)}&schedule=${encodeURIComponent(schedule)}&specialization=${encodeURIComponent(specialization)}&status=${encodeURIComponent(status)}`;
+
+            // Redirect to the URL
+            window.location.href = url;
+        });
+    </script>
+
+</body>
+</html>

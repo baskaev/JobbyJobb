@@ -1,0 +1,217 @@
+﻿@model List<Vacancy>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobbyJobb.com</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        .header, .footer {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+        }
+
+            .header a, .footer p {
+                margin: 0;
+            }
+
+        .header {
+            padding: 1rem 0;
+        }
+
+            .header a {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .header .nav-link {
+                font-size: 1rem; /* Smaller font size */
+            }
+
+        .toggle-btn {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .toggle-btn input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+            .toggle-btn span {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #2196F3;
+                transition: .4s;
+            }
+
+                .toggle-btn span:before {
+                    position: absolute;
+                    content: "";
+                    height: 26px;
+                    width: 26px;
+                    left: 4px;
+                    bottom: 4px;
+                    background-color: white;
+                    transition: .4s;
+                }
+
+        input:checked + span {
+            background-color: #2196F3;
+        }
+
+            input:checked + span:before {
+                transform: translateX(26px);
+            }
+
+        .footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+    <style>
+        .card {
+            margin-bottom: 15px;
+        }
+
+        .card-img-top {
+            max-height: 200px;
+            object-fit: cover; /* Чтобы изображение обрезалось по краям, сохраняя пропорции */
+        }
+
+        .card-body {
+            max-height: 150px; /* Задаем максимальную высоту для тела карточки */
+            overflow: hidden; /* Скрываем лишний контент */
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header d-flex justify-content-between align-items-center py-3 mb-4 border-bottom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="/" class="text-white text-decoration-none">
+                <span>JobbyJobb.com</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link text-white">О нас</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Услуги</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Войти/Зарегистрироваться</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container text-center">
+        <div class="d-inline-block mb-3">
+            <label class="toggle-btn">
+                <input type="checkbox" id="toggle-switch" checked>
+                <span></span>
+            </label>
+            <span id="toggle-label">ПОИСК РЕЗЮМЕ</span>
+        </div>
+        <input type="text" id="search-query" class="form-control w-50 d-inline-block" placeholder="поиск">
+        <button class="btn btn-secondary" id="search-button">поиск</button>
+
+        @* <div class="text-center my-4">
+        <strong>ЛИБО</strong>
+        </div>
+
+        <div class="text-center">
+        <a href="CreateVacancy/Index"><button class="btn btn-outline-primary mx-2">СОЗДАТЬ ВАКАНСИЮ</button></a>
+        <button class="btn btn-outline-primary mx-2">СОЗДАТЬ РЕЗЮМЕ</button>
+        </div> *@
+
+        <h1 class="display-1 text-center">Поисковая выдача</h1>
+        @* <div class="row">
+        @foreach (var vac in Model)
+        {
+
+        <div class="row card shadow">
+        <img class="card-img-top" src="https://sun9-85.userapi.com/impg/DQ_p0orkzuQJ1bwpuDlF8TxRxVwS3afn3mB4Xw/5vrwPWZk0PQ.jpg?size=1280x843&quality=95&sign=21e0460465870c223211d1fd219c4929&c_uniq_tag=WFmnKetKl9lzoMilA7kn9hJT4drzsOPjYD-qM-ZVp60&type=album" />
+        <div class="card-body">
+        <a style="color: black" href="#">
+        <h5>@vac.Name</h5>
+        </a>
+        <h5>@vac.Id </h5>
+        <a class="btn btn-dark" href="#" role="button">Подробнее</a>
+        </div>
+        </div>
+        }
+        *@
+        <div class="row">
+            @foreach (var vac in Model)
+            {
+                <div class="col-12">
+                    <div class="card shadow">
+                        @* <img class="card-img-top" src="https://sospp.ru/wp-content/uploads/2020/12/-sotrudnikov-2.jpg" /> *@
+                        <div class="card-body">
+                            <a style="color: black" href="#">
+                                <h5>@vac.Name</h5>
+                            </a>
+                            <h5>@vac.Id </h5>
+                            <a class="btn btn-dark" asp-controller="SearchVac" asp-action="Details" asp-route-id="@vac.Id" role="button">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>JobbyJobb inc. все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('toggle-switch').addEventListener('change', function () {
+            var label = document.getElementById('toggle-label');
+            if (this.checked) {
+                label.textContent = 'ПОИСК РЕЗЮМЕ';
+            } else {
+                label.textContent = 'ПОИСК РАБОТЫ';
+            }
+        });
+
+        document.getElementById('search-button').addEventListener('click', function () {
+            var query = document.getElementById('search-query').value;
+            var toggle = document.getElementById('toggle-switch').checked;
+            var baseUrl = toggle ? "/SearchVac/Index?searchstr=" : "/SearchVac/Index?searchstr=";
+            var url = baseUrl + encodeURIComponent(query);
+
+            window.location.href = url;
+        });
+    </script>
+
+</body>
+</html>
