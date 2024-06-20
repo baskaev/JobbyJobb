@@ -36,7 +36,7 @@ namespace JobbyJobb.Controllers
 {
             Vacancy v = new Vacancy { 
                 Id = Guid.NewGuid(),  
-                Name = "new", 
+                Name = name, 
                 Description = description,
                 Specialization = specialization,
                 Schedule = schedule,

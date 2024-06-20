@@ -149,6 +149,56 @@
         <input type="text" id="search-query" class="form-control w-50 d-inline-block" placeholder="поиск">
         <button class="btn btn-secondary" id="search-button">поиск</button>
 
+        <div id="vacancy-filters" class="mt-3" style="display: none;">
+            <h5>Фильтры для поиска вакансий</h5>
+            <div class="form-group">
+                <input type="text" id="filter-name" class="form-control" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <input type="text" id="filter-description" class="form-control" placeholder="Описание">
+            </div>
+            <div class="form-group">
+                <input type="number" id="filter-salary" class="form-control" placeholder="Зарплата">
+            </div>
+            @* <div class="form-group">
+            <input type="text" id="filter-education" class="form-control" placeholder="Уровень образования">
+            </div> *@
+            <div class="form-group">
+                <select id="filter-education" class="form-control">
+                    <option value="">Уровень образования</option>
+                    <option value="Высшее">Высшее</option>
+                    <option value="Среднее">Среднее</option>
+                    <option value="Среднее специальное">Среднее специальное</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="number" step="0.1" id="filter-experience" class="form-control" placeholder="Опыт (годы)">
+            </div>
+            <div class="form-group">
+                <input type="text" id="filter-sector" class="form-control" placeholder="Сектор">
+            </div>
+            <div class="form-group">
+                <input type="text" id="filter-address" class="form-control" placeholder="Адрес">
+            </div>
+            <div class="form-group">
+                <input type="text" id="filter-schedule" class="form-control" placeholder="График">
+            </div>
+            <div class="form-group">
+                <input type="text" id="filter-specialization" class="form-control" placeholder="Специализация">
+            </div>
+            @* <div class="form-group">
+            <input type="text" id="filter-status" class="form-control" placeholder="Статус">
+            </div> *@
+            <div class="form-group">
+                <select id="filter-status" class="form-control">
+                    <option value="">Статус</option>
+                    <option value="Ищем">Ищем</option>
+                    <option value="Закрыта">Закрыта</option>
+                </select>
+            </div>
+        </div>
+        <br />
+
         @* <div class="text-center my-4">
         <strong>ЛИБО</strong>
         </div>
@@ -211,18 +261,37 @@
     <script>
         document.getElementById('toggle-switch').addEventListener('change', function () {
             var label = document.getElementById('toggle-label');
+            var filters = document.getElementById('vacancy-filters');
             if (this.checked) {
                 label.textContent = 'ПОИСК РЕЗЮМЕ';
+                filters.style.display = 'none';
             } else {
                 label.textContent = 'ПОИСК РАБОТЫ';
+                filters.style.display = 'block';
             }
         });
 
         document.getElementById('search-button').addEventListener('click', function () {
             var query = document.getElementById('search-query').value;
             var toggle = document.getElementById('toggle-switch').checked;
-            var baseUrl = toggle ? "/SearchVac/Index?searchstr=" : "/SearchVac/Index?searchstr=";
+            var baseUrl = toggle ? "/SearchResume/Index?searchstr=" : "/SearchVac/Index?searchstr=";
             var url = baseUrl + encodeURIComponent(query);
+
+            if (!toggle) {
+                var name = document.getElementById('filter-name').value;
+                var description = document.getElementById('filter-description').value;
+                var salary = document.getElementById('filter-salary').value;
+                var educationLevel = document.getElementById('filter-education').value;
+                var experience = document.getElementById('filter-experience').value;
+                var sector = document.getElementById('filter-sector').value;
+                var address = document.getElementById('filter-address').value;
+                var schedule = document.getElementById('filter-schedule').value;
+                var specialization = document.getElementById('filter-specialization').value;
+                var status = document.getElementById('filter-status').value;
+
+
+                url += `&name=${encodeURIComponent(name)}&description=${encodeURIComponent(description)}&salary=${encodeURIComponent(salary)}&educationLevel=${encodeURIComponent(educationLevel)}&experience=${encodeURIComponent(experience)}&sector=${encodeURIComponent(sector)}&address=${encodeURIComponent(address)}&schedule=${encodeURIComponent(schedule)}&specialization=${encodeURIComponent(specialization)}&status=${encodeURIComponent(status)}`;
+            }
 
             window.location.href = url;
         });
