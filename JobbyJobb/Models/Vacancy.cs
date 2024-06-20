@@ -6,8 +6,6 @@ namespace JobbyJobb.Models
     public class Vacancy
     {
         public Guid Id { get; set; }
-
-        //public string PhotoPath { get; set; } // фото нанимателя можно брать через Employer
         public Employer? Employer { get; set; } // тот кто нанимает
         public string? Name { get; set; }
         public string? Description { get; set; }

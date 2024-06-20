@@ -17,14 +17,6 @@ namespace JobbyJobb.Controllers
 
         public IActionResult Index()
         {
-            //Vacancy v = new Vacancy { Id = Guid.NewGuid(), Name = "name", Description = "232323", Comments = new List<Comment>() };
-            //Comment c = new Comment { Id = Guid.NewGuid(), Text="dusdgd", Vacancy = v };
-            //datab.Comments.Add(c);
-            //v.Comments.Add(c);
-            //datab.Vacancies.Add(v);
-            //datab.SaveChanges();
-            //Console.WriteLine(v.Name);
-
             var vacs = datab.Vacancies.AsQueryable();
             var result = vacs.ToList();
 

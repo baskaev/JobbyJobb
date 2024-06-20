@@ -16,32 +16,7 @@ namespace JobbyJobb.Controllers
             _logger = logger;
             this.datab = datab;
         }
-        //public ActionResult Index(
-        //    string searchstr,
-        //    string name,
-        //    string description,
-        //    int salary,
-        //    string educationLevel,
-        //    float experience,
-        //    string sector,
-        //    string address,
-        //    string schedule,
-        //    string specialization
-        //    )
-        //{
-        //    var vacs = datab.Vacancies.ToList();
-
-        //    var result = new List<Vacancy>();
-
-        //    foreach (var vacancy in vacs)
-        //    {
-        //        if (searchstr.Contains(vacancy.Name))
-        //        {
-        //            result.Add(vacancy);
-        //        }
-        //    }
-        //    return View(result);
-        //}
+        
 
         public ActionResult Index(
             string searchstr,
@@ -123,17 +98,6 @@ namespace JobbyJobb.Controllers
             return View(vacancy);
         }
 
-        //public ActionResult Details(Guid id)
-        //{
-        //    Vacancy vacancy = datab.Vacancies
-        //                          .FirstOrDefault(v => v.Id == id);
-
-        //    if (vacancy == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(vacancy);
-        //}
+        
     }
 }
