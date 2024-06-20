@@ -1,6 +1,7 @@
 ﻿using JobbyJobb.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 namespace JobbyJobb.Controllers
@@ -108,10 +109,10 @@ namespace JobbyJobb.Controllers
             return View(result);
         }
 
-
         public ActionResult Details(Guid id)
         {
             Vacancy vacancy = datab.Vacancies
+                                  .Include(v => v.Comments) // Включаем связанные комментарии
                                   .FirstOrDefault(v => v.Id == id);
 
             if (vacancy == null)
@@ -121,5 +122,18 @@ namespace JobbyJobb.Controllers
 
             return View(vacancy);
         }
+
+        //public ActionResult Details(Guid id)
+        //{
+        //    Vacancy vacancy = datab.Vacancies
+        //                          .FirstOrDefault(v => v.Id == id);
+
+        //    if (vacancy == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return View(vacancy);
+        //}
     }
 }

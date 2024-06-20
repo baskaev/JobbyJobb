@@ -103,12 +103,15 @@
 
     <header class="header d-flex justify-content-between align-items-center py-3 mb-4 border-bottom">
         <div class="container d-flex justify-content-between align-items-center">
-            <a href="#" class="text-white text-decoration-none">
+            <a href="/" class="text-white text-decoration-none">
                 <span>JobbyJobb.com</span>
             </a>
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link text-white">О нас</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white">Услуги</a></li>
+                <li class="nav-item"><a href="/Home/AboutUS" class="nav-link text-white">О нас</a></li>
+                @* @if (userRole == "Employer")
+                {
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Отклики на мои вакансии</a></li>
+                } *@
                 @if (isAuthenticated)
                 {
                     <li class="nav-item"><a href="/Profile/User" class="nav-link text-white">Профиль</a></li>
@@ -182,14 +185,24 @@
         </div>
         <br />
         <br />
+        <p>СОЗДАНИЕ РЕЗЮМЕ ВРЕМЕННО НЕДОСТУПНО, ДЛЯ ПОИСКА ВАКАНСИЙ ПО ФИЛЬТРАМ ПЕРЕКЛЮЧИТЕ СЛАЙДЕР НА ПОИСК ВАКАНСИЙ</p>
         <div class="text-center my-4">
             <strong>ЛИБО</strong>
         </div>
 
-        <div class="text-center">
-            <a href="CreateVacancy/Index"><button class="btn btn-outline-primary mx-2">СОЗДАТЬ ВАКАНСИЮ</button></a>
-            <button class="btn btn-outline-primary mx-2">СОЗДАТЬ РЕЗЮМЕ</button>
-        </div>
+        @if (isAuthenticated)
+        {
+            <div class="text-center">
+                <a href="CreateVacancy/Index"><button class="btn btn-outline-primary mx-2">СОЗДАТЬ ВАКАНСИЮ</button></a>
+                <button class="btn btn-outline-primary mx-2">СОЗДАТЬ РЕЗЮМЕ</button>
+            </div>
+        }
+        else
+        {
+            <p>ЧТОБЫ ДОБАВИТЬ ВАКАНСИЮ ИЛИ РЕЗЮМЕ <a href="/Auth/Form"> АВТОРИЗУЙТЕСЬ</a></p>
+        }
+
+        
 
         <br />
         <br />

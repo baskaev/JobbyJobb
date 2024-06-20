@@ -31,6 +31,11 @@ namespace JobbyJobb.Controllers
             return View(result);
         }
 
+        public IActionResult AboutUS()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

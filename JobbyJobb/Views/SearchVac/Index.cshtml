@@ -1,5 +1,10 @@
 ﻿@model List<Vacancy>
-
+@using Microsoft.AspNetCore.Http
+@{
+    var userId = Context.Request.Cookies["UserId"];
+    var userRole = Context.Request.Cookies["UserRole"];
+    bool isAuthenticated = !string.IsNullOrEmpty(userId) && !string.IsNullOrEmpty(userRole);
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,9 +121,19 @@
                 <span>JobbyJobb.com</span>
             </a>
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link text-white">О нас</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white">Услуги</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white">Войти/Зарегистрироваться</a></li>
+                <li class="nav-item"><a href="/Home/AboutUS" class="nav-link text-white">О нас</a></li>
+                @* @if (userRole == "Employer")
+                {
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Отклики на мои вакансии</a></li>
+                } *@
+                @if (isAuthenticated)
+                {
+                    <li class="nav-item"><a href="/Profile/User" class="nav-link text-white">Профиль</a></li>
+                }
+                else
+                {
+                    <li class="nav-item"><a href="/Auth/Form" class="nav-link text-white">Войти/Зарегистрироваться</a></li>
+                }
             </ul>
         </div>
     </header>

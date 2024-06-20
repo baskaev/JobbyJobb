@@ -3,52 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\auth\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\auth\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\profile\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\profile\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\searchvac\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\searchvac\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\searchvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\searchvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\searchvac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\searchvac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\profile\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\profile\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\createvacancy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\createvacancy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\auth\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\auth\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\createvacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\createvacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\databasecontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\databasecontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\searchvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\searchvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\createresume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\createresume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\databasecontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\databasecontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\searchvac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\searchvac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|c:\\users\\taymuraz\\source\\repos\\jobbyjobb\\jobbyjobb\\views\\searchvac\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10CC38B0-04E9-4A5A-8DCE-F12B61B6C3F4}|JobbyJobb\\JobbyJobb.csproj|solutionrelative:jobbyjobb\\views\\searchvac\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,123 +110,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Comment.cs",
-              "RelativeToolTip": "JobbyJobb\\Models\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:06:06.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\User.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\User.cs",
-              "RelativeToolTip": "JobbyJobb\\Models\\User.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:05:41.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "JobbyJobb\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAuwGcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T06:45:03.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "JobbyJobb\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "JobbyJobb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHEAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T06:27:17.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CreateVacancy.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\CreateVacancy.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\CreateVacancy.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\CreateVacancy.cs",
-              "RelativeToolTip": "JobbyJobb\\Controllers\\CreateVacancy.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:16:15.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "JobbyJobb\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T06:33:44.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SearchVac.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\SearchVac.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\SearchVac.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\SearchVac.cs",
-              "RelativeToolTip": "JobbyJobb\\Controllers\\SearchVac.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwEMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T06:33:28.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form.cshtml",
               "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Auth\\Form.cshtml",
               "RelativeDocumentMoniker": "JobbyJobb\\Views\\Auth\\Form.cshtml",
               "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Auth\\Form.cshtml",
               "RelativeToolTip": "JobbyJobb\\Views\\Auth\\Form.cshtml",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIYAAABmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-20T07:54:22.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\Profile.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\Profile.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\Profile.cs",
-              "RelativeToolTip": "JobbyJobb\\Controllers\\Profile.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwG4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:41:32.506Z",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\CreateVacancy\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\CreateVacancy\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\CreateVacancy\\Index.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\CreateVacancy\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:12:30.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:26:00.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AboutUS.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\AboutUS.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\Home\\AboutUS.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\AboutUS.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\Home\\AboutUS.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:28:49.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAAALkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T06:27:17.906Z",
               "EditorCaption": ""
             },
             {
@@ -209,14 +185,191 @@
               "RelativeDocumentMoniker": "JobbyJobb\\Views\\Profile\\User.cshtml",
               "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Profile\\User.cshtml",
               "RelativeToolTip": "JobbyJobb\\Views\\Profile\\User.cshtml",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAAALcAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAFUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-20T09:01:26.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Details.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\SearchVac\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Details.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\SearchVac\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T06:33:09.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\SearchVac\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Index.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\SearchVac\\Index.cshtml",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAHcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T06:33:12.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateVacancy.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\CreateVacancy.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\CreateVacancy.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\CreateVacancy.cs",
+              "RelativeToolTip": "JobbyJobb\\Controllers\\CreateVacancy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:16:15.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchVac.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\SearchVac.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\SearchVac.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\SearchVac.cs",
+              "RelativeToolTip": "JobbyJobb\\Controllers\\SearchVac.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:33:28.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Vacancy.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Vacancy.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Models\\Vacancy.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Vacancy.cs",
+              "RelativeToolTip": "JobbyJobb\\Models\\Vacancy.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:04:04.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\Profile.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\Profile.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\Profile.cs",
+              "RelativeToolTip": "JobbyJobb\\Controllers\\Profile.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:41:32.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateResume.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\CreateResume.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\CreateResume.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\CreateResume.cs",
+              "RelativeToolTip": "JobbyJobb\\Controllers\\CreateResume.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T10:52:12.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Comment.cs",
+              "RelativeToolTip": "JobbyJobb\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:06:06.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "JobbyJobb\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:33:44.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:00:40.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:00:49.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "JobbyJobb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "JobbyJobb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:00:44.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JobbyJobb\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAuwGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:45:03.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "JobbyJobb\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\User.cs",
+              "RelativeToolTip": "JobbyJobb\\Models\\User.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:05:41.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Resume.cs",
               "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Resume.cs",
               "RelativeDocumentMoniker": "JobbyJobb\\Models\\Resume.cs",
@@ -224,25 +377,11 @@
               "RelativeToolTip": "JobbyJobb\\Models\\Resume.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwAwAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:06:13.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:06:13.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Vacancy.cs",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Vacancy.cs",
-              "RelativeDocumentMoniker": "JobbyJobb\\Models\\Vacancy.cs",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\Vacancy.cs",
-              "RelativeToolTip": "JobbyJobb\\Models\\Vacancy.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:04:04.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "DatabaseContex.cs",
               "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\DatabaseContex.cs",
               "RelativeDocumentMoniker": "JobbyJobb\\DatabaseContex.cs",
@@ -250,12 +389,11 @@
               "RelativeToolTip": "JobbyJobb\\DatabaseContex.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:19:10.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:19:10.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Program.cs",
               "RelativeDocumentMoniker": "JobbyJobb\\Program.cs",
@@ -263,12 +401,11 @@
               "RelativeToolTip": "JobbyJobb\\Program.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:51:28.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:51:28.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\appsettings.json",
               "RelativeDocumentMoniker": "JobbyJobb\\appsettings.json",
@@ -276,12 +413,11 @@
               "RelativeToolTip": "JobbyJobb\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-20T07:51:33.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:51:33.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "JobbyJobb\\Models\\ErrorViewModel.cs",
@@ -289,34 +425,7 @@
               "RelativeToolTip": "JobbyJobb\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:06:12.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Index.cshtml",
-              "RelativeDocumentMoniker": "JobbyJobb\\Views\\SearchVac\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Index.cshtml",
-              "RelativeToolTip": "JobbyJobb\\Views\\SearchVac\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T06:33:12.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Details.cshtml",
-              "RelativeDocumentMoniker": "JobbyJobb\\Views\\SearchVac\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Taymuraz\\source\\repos\\JobbyJobb\\JobbyJobb\\Views\\SearchVac\\Details.cshtml",
-              "RelativeToolTip": "JobbyJobb\\Views\\SearchVac\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T06:33:09.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:06:12.253Z"
             }
           ]
         }
