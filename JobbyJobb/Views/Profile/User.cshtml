@@ -1,0 +1,183 @@
+﻿@model JobbyJobb.Models.User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль пользователя</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        .header, .footer {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+        }
+
+        .header {
+            padding: 1rem 0;
+        }
+
+            .header a {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .header .nav-link {
+                font-size: 1rem; /* Smaller font size */
+            }
+
+        .footer {
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .profile-header {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+
+            .profile-header h2 {
+                margin: 0;
+            }
+
+            .profile-header .lead {
+                font-size: 1.25rem;
+            }
+
+        .profile-details dt {
+            font-weight: bold;
+        }
+
+        .profile-details dd {
+            margin-bottom: 1rem;
+        }
+
+        #edit-form {
+            display: none;
+            margin-top: 2rem;
+        }
+
+            #edit-form .form-group {
+                margin-bottom: 1rem;
+            }
+    </style>
+</head>
+<body>
+    <header class="header d-flex justify-content-between align-items-center py-3 mb-4 border-bottom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="text-white text-decoration-none">
+                <span>JobbyJobb.com</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link text-white">О нас</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Услуги</a></li>
+                <li class="nav-item"><a href="/Auth/Form" class="nav-link text-white">Войти/Зарегистрироваться</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile-header text-center">
+            <h2>Профиль пользователя</h2>
+            <p class="lead">@Model.Name</p>
+            <button class="btn btn-danger" id="logout-button">Выйти</button>
+            <button class="btn btn-primary" id="edit-button">Изменить информацию</button>
+        </div>
+
+        <dl class="row profile-details">
+            <dt class="col-sm-3">ID пользователя</dt>
+            <dd class="col-sm-9">@Model.Id</dd>
+
+            <dt class="col-sm-3">Логин</dt>
+            <dd class="col-sm-9">@Model.Login</dd>
+
+            <dt class="col-sm-3">Роль</dt>
+            <dd class="col-sm-9">@Model.Role</dd>
+
+            <dt class="col-sm-3">Имя</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            @if (!string.IsNullOrEmpty(Model.PhoneNumber))
+            {
+                <dt class="col-sm-3">Телефон</dt>
+                <dd class="col-sm-9">@Model.PhoneNumber</dd>
+            }
+
+            @if (!string.IsNullOrEmpty(Model.Email))
+            {
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
+            }
+
+            @if (Model.Friends != null && Model.Friends.Count > 0)
+            {
+                <dt class="col-sm-3">Друзья</dt>
+                <dd class="col-sm-9">
+                    <ul>
+                        @foreach (var friend in Model.Friends)
+                        {
+                            <li>@friend.Name (@friend.Login)</li>
+                        }
+                    </ul>
+                </dd>
+            }
+        </dl>
+
+        <form id="edit-form" asp-controller="Profile" asp-action="Change" method="post">
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" class="form-control" id="name" name="Name" value="@Model.Name" />
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="text" class="form-control" id="phone" name="PhoneNumber" value="@Model.PhoneNumber" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="Email" value="@Model.Email" />
+            </div>
+            <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+            <button type="button" class="btn btn-secondary" id="cancel-button">Отмена</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>JobbyJobb inc. все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('logout-button').addEventListener('click', function () {
+            document.cookie = "UserId=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            document.cookie = "UserRole=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            window.location.href = "/";
+        });
+
+        document.getElementById('edit-button').addEventListener('click', function () {
+            document.getElementById('edit-form').style.display = 'block';
+        });
+
+        document.getElementById('cancel-button').addEventListener('click', function () {
+            document.getElementById('edit-form').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

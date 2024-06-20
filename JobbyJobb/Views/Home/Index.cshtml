@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@model List<Vacancy>
+@using Microsoft.AspNetCore.Http
+@{
+    var userId = Context.Request.Cookies["UserId"];
+    var userRole = Context.Request.Cookies["UserRole"];
+    bool isAuthenticated = !string.IsNullOrEmpty(userId) && !string.IsNullOrEmpty(userRole);
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -101,7 +109,14 @@
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="#" class="nav-link text-white">О нас</a></li>
                 <li class="nav-item"><a href="#" class="nav-link text-white">Услуги</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white">Войти/Зарегистрироваться</a></li>
+                @if (isAuthenticated)
+                {
+                    <li class="nav-item"><a href="/Profile/User" class="nav-link text-white">Профиль</a></li>
+                }
+                else
+                {
+                    <li class="nav-item"><a href="/Auth/Form" class="nav-link text-white">Войти/Зарегистрироваться</a></li>
+                }
             </ul>
         </div>
     </header>
@@ -167,8 +182,6 @@
         </div>
         <br />
         <br />
-        <br />
-        <br />
         <div class="text-center my-4">
             <strong>ЛИБО</strong>
         </div>
@@ -180,6 +193,28 @@
 
         <br />
         <br />
+
+        <p>ПОСЛЕДНИЕ ВАКАНСИИ</p>
+        <br />
+        <br />
+
+        <div class="row">
+            @foreach (var vac in Model)
+            {
+                <div class="col-12">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="https://sospp.ru/wp-content/uploads/2020/12/-sotrudnikov-2.jpg" /> 
+                        <div class="card-body">
+                            <a style="color: black" href="#">
+                                <h5>@vac.Name</h5>
+                            </a>
+                            <h5>@vac.Id </h5>
+                            <a class="btn btn-dark" asp-controller="SearchVac" asp-action="Details" asp-route-id="@vac.Id" role="button">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
         <br />
         <br />
 

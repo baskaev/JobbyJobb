@@ -24,7 +24,11 @@ namespace JobbyJobb.Controllers
             //datab.Vacancies.Add(v);
             //datab.SaveChanges();
             //Console.WriteLine(v.Name);
-            return View();
+
+            var vacs = datab.Vacancies.AsQueryable();
+            var result = vacs.ToList();
+
+            return View(result);
         }
 
         public IActionResult Privacy()
